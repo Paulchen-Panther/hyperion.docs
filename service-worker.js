@@ -27,11 +27,11 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "b955b001b40c08de7920c5ff9c3645ea"
+    "revision": "cc7255ff01cedd1a4ce4ae5f27b7750c"
   },
   {
-    "url": "assets/css/0.styles.2cc40c7c.css",
-    "revision": "aaf2b3cc07e769700b253d968794753f"
+    "url": "assets/css/0.styles.f6a64547.css",
+    "revision": "2a77e8ad900fb0b7a83919122a146f65"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -146,24 +146,24 @@ self.__precacheManifest = [
     "revision": "2b90c6a1901efcabe8b3068af60731bc"
   },
   {
-    "url": "assets/js/35.c31e9392.js",
-    "revision": "f336697399a565f9d677935dc054f00f"
+    "url": "assets/js/35.243046dd.js",
+    "revision": "872c03c4ed9a2000c99e9de639a08d85"
   },
   {
-    "url": "assets/js/36.0d7a4bb2.js",
-    "revision": "d7a5b6449324c06470d8c3b9dccf093b"
+    "url": "assets/js/36.67d68faf.js",
+    "revision": "b1967d4c82eca4ed7f1f3cff0ec184b4"
   },
   {
-    "url": "assets/js/37.ab579f80.js",
-    "revision": "a9193a3fe84b57f50e959a75745abe23"
+    "url": "assets/js/37.498ee1b9.js",
+    "revision": "314a368a8377bbc4a0751c6236fdc840"
   },
   {
-    "url": "assets/js/38.dc1dd9be.js",
-    "revision": "af4bc0f81e890bf492332d7dfc88c0b2"
+    "url": "assets/js/38.f08e0b85.js",
+    "revision": "541373231c62b2f491cd017441d63f26"
   },
   {
-    "url": "assets/js/39.8aead94b.js",
-    "revision": "8388c54f3466abf8cefeee67aa02b80d"
+    "url": "assets/js/39.ba29c142.js",
+    "revision": "04cabcb01580e234654d78d4eefe64fe"
   },
   {
     "url": "assets/js/4.bdb1a614.js",
@@ -210,8 +210,8 @@ self.__precacheManifest = [
     "revision": "4cf1006219657677455986165ceba419"
   },
   {
-    "url": "assets/js/5.b2787c44.js",
-    "revision": "3ae32b8e97a72ebbac84cdb29f8472d1"
+    "url": "assets/js/5.fcf6c644.js",
+    "revision": "282fcec672061eadc6896c0ffa309c27"
   },
   {
     "url": "assets/js/50.51d0357c.js",
@@ -334,256 +334,256 @@ self.__precacheManifest = [
     "revision": "3d60a2bc853b5acd813e90fdecc8b3ad"
   },
   {
-    "url": "assets/js/app.2a52b576.js",
-    "revision": "2caa102b9df63b316ee0e81deb704485"
+    "url": "assets/js/app.64ce8c36.js",
+    "revision": "b438c1c120f0b01f158e697b56d968f2"
   },
   {
     "url": "de/index.html",
-    "revision": "7217bd639aecfd0ab7a6efdf94e555bc"
+    "revision": "65741049835ab62764455553ae2a6a67"
   },
   {
     "url": "de/user/HyperBian.html",
-    "revision": "1e12400748cada6c745c770eff99a933"
+    "revision": "3eabbb2d451b4294fbb39df722519d57"
   },
   {
     "url": "de/user/index.html",
-    "revision": "d136abfca7a9919b2bbe4de6c6867057"
+    "revision": "05a028e1e8507e270445c575f3004160"
   },
   {
     "url": "de/user/Installation.html",
-    "revision": "78e5523a9e78a5a9f66008528b31c068"
+    "revision": "689d603465c5d4d91c0ad373574ea858"
   },
   {
     "url": "de/user/Konfiguration.html",
-    "revision": "180add559c72a96b542517f113d4bcec"
+    "revision": "93d8998f154b7ee87899b4989f26e1a7"
   },
   {
     "url": "en/addons/API.html",
-    "revision": "ed89083e9ea54c585213d03940ec94bf"
+    "revision": "f71656fcec269b1153cf802eb7ae603b"
   },
   {
     "url": "en/addons/index.html",
-    "revision": "14049bc8a38f7feb2b5057d34b2bba76"
+    "revision": "38015a0808b68fe5cee4155940ab3838"
   },
   {
     "url": "en/addons/OurFirstAddon.html",
-    "revision": "3a534a5a538f56dfeb65e8c4d50e09c9"
+    "revision": "76ba113e49d3632c32f61692bdc53c20"
   },
   {
     "url": "en/api/Detect.html",
-    "revision": "37ed076a708a4c6e7955e141d958bf98"
+    "revision": "871827189ff0be3d20a3fa2b6d0b0bb3"
   },
   {
     "url": "en/api/Guidelines.html",
-    "revision": "97a20a17999bcedf8e88d37f944e428b"
+    "revision": "d7343ea8e65866835999e0e00f098c99"
   },
   {
     "url": "en/api/Ui.html",
-    "revision": "47acad2dd34852d1572ceba9eb44ece0"
+    "revision": "77f29a2f6f534ed7acbea8ef7a62ee03"
   },
   {
     "url": "en/effects/API.html",
-    "revision": "588e8259a8baea1c98046293db928bed"
+    "revision": "86624fb34cd4c08dab7203e2c7a3d223"
   },
   {
     "url": "en/effects/index.html",
-    "revision": "06f1b5d9bf1e2f542689321f36e62de0"
+    "revision": "238b39de4ddad7061ccf0a1d736e19e3"
   },
   {
     "url": "en/effects/OurFirstEffect.html",
-    "revision": "64fae2c4b18e340fb59ab20d0d38da9f"
+    "revision": "a70df75b37f66f588babfadd609f5b99"
   },
   {
     "url": "en/json/Authorization.html",
-    "revision": "70dcf8002d6d66611155ba60d05a6f64"
+    "revision": "0e8e80039b7549f808578dff52ae81cb"
   },
   {
     "url": "en/json/Control.html",
-    "revision": "74fca541a8fd6280137605d6fe8af109"
+    "revision": "393021fbf335bad4d157203dea0898c4"
   },
   {
     "url": "en/json/index.html",
-    "revision": "ab4fb8a079b0766493698343bf86054d"
+    "revision": "dd80c5cf3910caff3f8a9712d8932b7b"
   },
   {
     "url": "en/json/ServerInfo.html",
-    "revision": "5635fe6c5e8edff03fb45df9693a5277"
+    "revision": "42617fc855a72a56305db46ab4c70f22"
   },
   {
     "url": "en/json/Subscribe.html",
-    "revision": "d27ce4e72e94ab72fd68a7c7d11a06c4"
+    "revision": "5131a2922408e1c808f62f0514d6da32"
   },
   {
     "url": "en/user/advanced/Advanced.html",
-    "revision": "01983e7b9c4e9ef8a05a94d875caa708"
+    "revision": "f97af5277a633247a2d3d2aa007a541e"
   },
   {
     "url": "en/user/advanced/Support.html",
-    "revision": "037a2c7f77392bfed78d327c64c21902"
+    "revision": "d35d8c1fa111f977c8500e0ee83c5429"
   },
   {
     "url": "en/user/Configuration.html",
-    "revision": "adca1df5182c3536943dd4cde8241490"
+    "revision": "2bbc770d0a56e6aee08d5082d69ee6c7"
   },
   {
     "url": "en/user/HyperBian.html",
-    "revision": "88d20ffefe80378c81a3979b24d9ea3b"
+    "revision": "909919b2646819dc3536a0a244b303d2"
   },
   {
     "url": "en/user/index.html",
-    "revision": "0e75173dccc6e79508b5a2c0ee558b87"
+    "revision": "4946724d04cd1c61ac084717d16cea3b"
   },
   {
     "url": "en/user/Installation.html",
-    "revision": "f28910458d07137c3d3deb4671b418f9"
+    "revision": "f69741f168ee77866e6ae998513739a8"
   },
   {
     "url": "en/user/leddevices/gpio/piblaster.html",
-    "revision": "61f7d19e3bb021c7c0bb316e33f73ca7"
+    "revision": "9583f75f88461bacd665dabdf4078884"
   },
   {
     "url": "en/user/leddevices/index.html",
-    "revision": "b236c5517403b74a710d097de8225979"
+    "revision": "aaf1c386de12093576cc15cd3f8d7ac3"
   },
   {
     "url": "en/user/leddevices/network/atmoorb.html",
-    "revision": "8f8355bbc205d30e24e014e6eab124ca"
+    "revision": "9055d664abc7a20a84137646fd4dcbb7"
   },
   {
     "url": "en/user/leddevices/network/cololight.html",
-    "revision": "d4c90b09d9bd7879567aa2a734883a02"
+    "revision": "c0ec2767eb99eed857e4393af5294f55"
   },
   {
     "url": "en/user/leddevices/network/fadecandy.html",
-    "revision": "483748390f2efeb0662760fd8278c4a3"
+    "revision": "eac2694b97f2c7e80e7a43496490b189"
   },
   {
     "url": "en/user/leddevices/network/nanoleaf.html",
-    "revision": "fe691084e0d08b15783de6b93c2759e4"
+    "revision": "664ce6a70cf5c383d530166e9dc9fa1b"
   },
   {
     "url": "en/user/leddevices/network/philipshue.html",
-    "revision": "d609ab7a7f30b39e42b16ef064a6cc39"
+    "revision": "f0cdc950df59e9470be6b754159c354e"
   },
   {
     "url": "en/user/leddevices/network/tinkerforge.html",
-    "revision": "f0a2133c874a1bd75281e46221a45743"
+    "revision": "d46b0f30b57aa0f384e9f31409d6bb1c"
   },
   {
     "url": "en/user/leddevices/network/tpm2net.html",
-    "revision": "796907f8caf1e0c0cf4617bb1c8beedb"
+    "revision": "39db6df4999eb0f6340cd919ea396407"
   },
   {
     "url": "en/user/leddevices/network/udpartnet.html",
-    "revision": "dd57947e03be79094a9a7e650bcefcf6"
+    "revision": "80457708621dfc0b65ec40bb6a336378"
   },
   {
     "url": "en/user/leddevices/network/udpe131.html",
-    "revision": "e62a0a123f5de5cfd56a02c0bd454dfe"
+    "revision": "4c8a17d655a6129cf6b75f6f93956870"
   },
   {
     "url": "en/user/leddevices/network/udph801.html",
-    "revision": "37e1af18a16e6bac6bb3744c51be7168"
+    "revision": "fb9aa33b6ae069b07434edd6afe6c533"
   },
   {
     "url": "en/user/leddevices/network/udpraw.html",
-    "revision": "d7f027cd3f1bc2163248a78dc535ada1"
+    "revision": "94f0a96e1f95a81529a58a3302e83ba3"
   },
   {
     "url": "en/user/leddevices/network/wled.html",
-    "revision": "d2b2eb25c14f86d1d55d4cb78e165a11"
+    "revision": "3052fb5c9fb6fb995681d82dc0c34792"
   },
   {
     "url": "en/user/leddevices/network/yeelight.html",
-    "revision": "2f17c30246aca6dcacc50e6b9bdc8240"
+    "revision": "bc2d1c3dc1471d205c7d1ad65bd46afd"
   },
   {
     "url": "en/user/leddevices/others/debug.html",
-    "revision": "a3cb982a9eb8bcc8a716c7a7ef29dc86"
+    "revision": "3e042874455757f69b30a5b93c5e0757"
   },
   {
     "url": "en/user/leddevices/spi/apa102.html",
-    "revision": "db0f43c262f9ca758854c3c094c54962"
+    "revision": "9fe34ea16e32698ef91c0e008f8e282b"
   },
   {
     "url": "en/user/leddevices/spi/apa104.html",
-    "revision": "5df43a118d028e9aeac300837c052912"
+    "revision": "49be53fce8d223b73bf7a2136ee55c26"
   },
   {
     "url": "en/user/leddevices/spi/lpd6803.html",
-    "revision": "633e34df37a4b6a8e2f80b93b430fb91"
+    "revision": "cbfd6cb6e3c83fb1a2e89639aa8e5073"
   },
   {
     "url": "en/user/leddevices/spi/lpd8806.html",
-    "revision": "27bd7c101d5ed56bf99fb064c3fe7d3c"
+    "revision": "1f01201a999c4d3648eb27c1cdda0138"
   },
   {
     "url": "en/user/leddevices/spi/p9813.html",
-    "revision": "77af1bb6d56550d582fca7c3a87134b3"
+    "revision": "c86a04c61634019be1317237b20c525e"
   },
   {
     "url": "en/user/leddevices/spi/sk6812.html",
-    "revision": "7b6429eb26ea15b0d760c136580e41ac"
+    "revision": "0ca9d87d8b62197c6343b194ae3a0114"
   },
   {
     "url": "en/user/leddevices/spi/sk6822.html",
-    "revision": "018cdf4d3a8752e8a821c0501673e93e"
+    "revision": "7980f0a5d06f2f483cabf19dada4238e"
   },
   {
     "url": "en/user/leddevices/spi/sk9822.html",
-    "revision": "cdf674757d45f13a203885942fe660af"
+    "revision": "6498a5af95803bafe0b13020c92a11a0"
   },
   {
     "url": "en/user/leddevices/spi/ws2801.html",
-    "revision": "0e99034fc044197cf2ef737ddf085632"
+    "revision": "58e1d2f1766c1e6ba17f425e443dc3c9"
   },
   {
     "url": "en/user/leddevices/spi/ws2812.html",
-    "revision": "277ee550d3811ee6407821f46d0ac6c0"
+    "revision": "794212bc8abac2d51d0f3f795fa5d395"
   },
   {
     "url": "en/user/leddevices/usb/adalight.html",
-    "revision": "31d20bb918510b650262a78b6e081abc"
+    "revision": "65ef38b6983b1c437024f79ed30e4579"
   },
   {
     "url": "en/user/leddevices/usb/atmo.html",
-    "revision": "c89c1c36444ec39589d2972129d112d1"
+    "revision": "1d06d3f04577c068f8cb00a06f4830dc"
   },
   {
     "url": "en/user/leddevices/usb/dmx.html",
-    "revision": "f74bdea003571f6d6e4148854ccca54f"
+    "revision": "1b85b51bf7f887466b91cb38e8cb1610"
   },
   {
     "url": "en/user/leddevices/usb/hyperion-usbasp.html",
-    "revision": "04a17b5592924a6a9fbf578544c07909"
+    "revision": "7214d48124653cc361614642d5ca61b0"
   },
   {
     "url": "en/user/leddevices/usb/karate.html",
-    "revision": "95affe93942a6ca2c17f0eca5e1bfdd4"
+    "revision": "068ceaa251e2cdd4949ad78e3b25c26d"
   },
   {
     "url": "en/user/leddevices/usb/lightpack.html",
-    "revision": "610562c38206b6c5892fd46d1337c913"
+    "revision": "ef120044987e7a99c3f56a9e74673ad2"
   },
   {
     "url": "en/user/leddevices/usb/multilightpack.html",
-    "revision": "0080658a30925152765678fc56d76cf3"
+    "revision": "c258d9da12a5098770aebf02ce89414c"
   },
   {
     "url": "en/user/leddevices/usb/paintpack.html",
-    "revision": "b2e75208e5f5add59d19d72792812868"
+    "revision": "2f7431c829761449faae1031daaa6e86"
   },
   {
     "url": "en/user/leddevices/usb/rawhid.html",
-    "revision": "00724afe2d88d8d5ef884ddf2447049a"
+    "revision": "35f68aaf1d34174642b2d8526ef14885"
   },
   {
     "url": "en/user/leddevices/usb/sedu.html",
-    "revision": "2892b76bccd1aee1b872e738e89be98b"
+    "revision": "3077993686cb50ef36b78b2587ec6dfc"
   },
   {
     "url": "en/user/leddevices/usb/tpm2.html",
-    "revision": "1e023670c40ac3f5af7c985247172108"
+    "revision": "0d2e723a2da6522468dfc29c50c838db"
   },
   {
     "url": "hyperion_logo_dark.png",
@@ -799,7 +799,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "3e4db9d58cc4da62b7f305ed1ccd5a0e"
+    "revision": "e199bb6347c9bad8a3e489a2afe8f894"
   },
   {
     "url": "not_found_dark.png",
