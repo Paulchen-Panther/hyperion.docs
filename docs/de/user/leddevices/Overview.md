@@ -173,12 +173,19 @@ Verbinde die Pins des FTDI-Controllers mit dem LED-Streifen wie folgt:
 
 - **AD0** → CLOCK
 - **AD1** → DATA
+- **GND** → GND (-5 Volt) LEDs/Netzteil
 - **AD3** → CS (aktiv low) — kann optional verwendet werden, um den OE (Output Enable)-Pin eines Pegelwandlers zu steuern.
 
 ##### [SK6812](/user/leddevices/spi_pwm/sk6812.md) oder [WS2812](/user/leddevices/spi_pwm/ws2812b.md)
 
 - **AD1** → DATA
+- **GND** → GND (-5 Volt) LEDs/Netzteil
 - **AD3** → CS (aktiv low) — kann optional verwendet werden, um den OE (Output Enable)-Pin eines Pegelwandlers zu steuern.
+
+::: info
+Da der FTDI seinen Strom über USB bezieht, dürfen die +5 Volt des FTDI-Boards nicht mit den +5 Volt der LEDs verbunden werden.
+Der FTDI funktioniert auch ohne Pegelwandler. Allerdings sollte auf der DATA-Leitung ein 470-Ohm-Widerstand installiert werden, um unerwünschtes Flackern bzw. Blitzen zu verhindern.
+:::
 
 ### Netzwerk
 Alles, was über das Netzwerk erreichbar ist.

@@ -164,12 +164,19 @@ Connect the FTDI device's pins to the LED strip as follows:
 
 - **AD0** → CLOCK
 - **AD1** → DATA
+- **GND** → GND (-5 Volt) LEDs/power supply
 - **AD3** → CS (active low) — can optionally be used to control the OE (Output Enable) pin of a logic level shifter.
 
 ##### [SK6812](/user/leddevices/spi_pwm/sk6812.md) or [WS2812](/user/leddevices/spi_pwm/ws2812b.md)
 
 - **AD1** → DATA
+- **GND** → GND (-5 Volt) LEDs/power supply
 - **AD3** → CS (active low) — can optionally be used to control the OE (Output Enable) pin of a logic level shifter.
+
+::: info
+Since the FTDI draws its power via USB, the +5 volts of the FTDI board must not be connected to the +5 volts of the LEDs.
+The FTDI also works without a level converter. However, a 470-ohm resistor should be installed on the DATA line to prevent unwanted flickering or flashing.
+:::
 
 ### Network
 Everything that is reachable over network.
