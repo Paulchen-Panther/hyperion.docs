@@ -100,7 +100,8 @@ export const sidebar_EN: any = {
             }
           ]
         },
-        { text: 'HyperBian', link: '/user/HyperBian.md' }
+        { text: 'HyperBian', link: '/user/HyperBian.md' },
+        { text: 'WiFi Configuration Tool', link: '/user/WifiConfig.md' }
       ]
     },
     {
