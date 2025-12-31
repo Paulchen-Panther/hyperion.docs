@@ -4,6 +4,7 @@ import { Tab, Tabs } from 'vue3-tabs-component'
 import ExtendedLayout from './components/ExtendedLayout.vue'
 import ImageWrap from './components/ImageWrap.vue'
 import Contributors from './components/Contributors.vue'
+import WifiConfigGenerator from './components/WifiConfigGenerator.vue'
 import FloatingVue from 'floating-vue'
 
 import 'floating-vue/dist/style.css'
@@ -20,6 +21,7 @@ export default {
     app.component('Tabs', Tabs)
     app.component('ImageWrap', ImageWrap)
     app.component('Contributors', Contributors)
+    app.component('WifiConfigGenerator', WifiConfigGenerator)
     app.use(FloatingVue)
   }
 }
