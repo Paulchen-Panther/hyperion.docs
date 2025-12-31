@@ -64,7 +64,7 @@ const generatedConfig = ref('')
 const copyButtonText = ref('Copy to Clipboard')
 
 const configTemplate = `####################################################################################
-## Configure your initial HyperBian Wifi connectivity to your needs below.
+## Configure your initial HyperBian WiFi connectivity to your needs below.
 ## Uncomment and edit the relevant sections as needed.
 ##
 ## If you have additional needs refer to the cloud-init documentation 
@@ -89,9 +89,16 @@ network:
 const generateConfig = () => {
   let config = configTemplate
   
-  // Replace placeholders with user input
-  config = config.replace('"SSID"', `"${ssid.value}"`)
-  config = config.replace('"PASSWORD"', `"${password.value}"`)
+  // Escape special characters for YAML
+  const escapeYamlString = (str) => {
+    // If the string contains special characters, we need to escape quotes
+    // For YAML double-quoted strings, we need to escape backslashes and double quotes
+    return str.replace(/\\/g, '\\\\').replace(/"/g, '\\"')
+  }
+  
+  // Replace placeholders with user input (escaped for YAML)
+  config = config.replace('"SSID"', `"${escapeYamlString(ssid.value)}"`)
+  config = config.replace('"PASSWORD"', `"${escapeYamlString(password.value)}"`)
   config = config.replace('COUNTRY', country.value.toUpperCase())
   
   generatedConfig.value = config
@@ -189,8 +196,8 @@ const copyToClipboard = async () => {
 .instruction {
   margin-bottom: 15px;
   padding: 10px;
-  background: var(--vp-c-warning-soft);
-  border-left: 4px solid var(--vp-c-warning-1);
+  background: var(--vp-c-tip-soft);
+  border-left: 4px solid var(--vp-c-tip-1);
   border-radius: 4px;
 }
 
